@@ -1,0 +1,228 @@
+* {
+    font-family: 'roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    width: 50%;
+}
+
+.logo-header {
+    display: inline-block;
+    height: 75px;
+    width: 75px;
+    margin: 25px 32px 45px 25px;
+}
+
+.link-header {
+    font-weight: 400;
+    display: flex;
+    width: 50%;
+    margin: 50px 0;
+    justify-content: center;
+    font-size: 18px;
+    color: #00005e;
+    cursor: pointer;
+}
+
+.button-header {
+    font-size: 16px;
+    color: #ffffff;
+    background-color: red;
+    border: none;
+    border-radius: 20px;
+    height: 34px;
+    width: 165px;
+    margin-top: 42px;
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 62px;
+    font-weight: 900;
+    width: 1000px;
+    line-height: 55px;
+    margin: 0 0 15px 35px;
+    color: darkblue;
+}
+
+#subtitulo-herobox {
+    font-size: 32px;
+    font-weight: 600;
+    color: red;
+    margin: 0 0 25px 35px;
+}
+
+.alunos-img {
+    width: 600px;
+    height: 475px;
+    margin: 0 0 0 35px;
+}
+
+.texto-desconto {
+    font-size: 18px;
+    margin: 0 0 5px 35px;
+    width: 600px;
+    height: 24px;
+    justify-content: center;
+    text-align: center;
+    color: #ffffff;
+    background-color: darkblue;
+}
+
+.botao-desconto {
+    margin: 0 0 35px 200px;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: red;
+    border: 2px solid rgb(172, 0, 0);
+    border-radius: 20px;
+    height: 34px;
+    width: 250px;
+    cursor: pointer;
+}
+
+.cursos {
+    display: inline-block;
+    justify-content: center;
+    position: absolute;
+    top: 425px;
+    right: 750px;
+}
+
+h2 {
+    font-size: 48px;
+    font-weight: 600;
+    margin: 10px 0;
+    color: #00005e;
+}
+
+h4 {
+    font-size: 32px;
+    margin: 10px 0;
+    color: red;
+}
+
+.text-cursos {
+    font-size: 18px;
+    margin-right: 35px;
+}
+
+.titulo-depoimentos {
+    margin-left: 35px;
+}
+
+li {
+    font-size: 18px;
+    margin-left: 75px;
+    margin-bottom: 20px;
+}
+
+.titulo-sobre-nos {
+    margin-left: 35px;
+}
+
+.texto-sobre-nos {
+    font-size: 18px;
+    margin-left: 60px;
+    width: 650px;
+    margin-bottom: 15px;
+}
+
+@media screen and (max-width: 900px) {
+    
+    .logo-header {
+        width: 100px;
+        height: 100px;
+        margin-bottom: 10px;
+    }
+
+    .site-header {
+        display: block;
+    }
+
+    .link-header {
+        display: none;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        width: 100%;
+        background-color: #333;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .button-header {
+        position: absolute;
+        top: 10px;
+        left: 450px;
+        width: 185px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 48px;
+        position: relative;
+        left: 50px;
+        width: 600px;
+    }
+
+    #subtitulo-herobox {
+        font-size: 36px;
+        position: relative;
+        left: 50px;
+        width: 600px;
+    }
+
+    .alunos-img {
+        width: 600px;
+        position: relative;
+        left: 15px;
+    }
+
+    .texto-desconto {
+        position: relative;
+        left: 15px;
+    }
+
+    .botao-desconto {
+        position: relative;
+        left: 15px;
+    }
+
+    .cursos {
+        display: none;
+    }
+
+    .titulo-depoimentos {
+        font-size: 36px;
+        position: relative;
+        left: 50px;
+        width: 550px;
+    }
+
+    li {
+        font-size: 24px;
+        position: relative;
+        left: 50px;
+        width: 500px;
+    }
+
+    .titulo-sobre-nos {
+        position: relative;
+        font-size: 36px;
+        left: 50px;
+        width: 550px;
+    }
+
+    .texto-sobre-nos {
+        position: relative;
+        font-size: 22px;
+        left: 25px;
+        width: 500px;
+    }
+}
