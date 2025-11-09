@@ -187,11 +187,12 @@ li {
     .texto-desconto {
         position: relative;
         left: 15px;
+        width: 600px;
     }
 
     .botao-desconto {
         position: relative;
-        left: 15px;
+        right: 150px;
     }
 
     .cursos {
