@@ -57,16 +57,16 @@ h1 {
 }
 
 .alunos-img {
-    width: 600px;
-    height: 475px;
+    width: 950px;
+    height: 625px;
     margin: 0 0 0 35px;
 }
 
 .texto-desconto {
-    font-size: 18px;
+    font-size: 24px;
     margin: 0 0 5px 35px;
-    width: 600px;
-    height: 24px;
+    width: 950px;
+    height: 30px;
     justify-content: center;
     text-align: center;
     color: #ffffff;
@@ -74,23 +74,23 @@ h1 {
 }
 
 .botao-desconto {
-    margin: 0 0 35px 200px;
-    font-size: 16px;
+    margin: 0 0 35px 350px;
+    font-size: 22px;
     color: #ffffff;
     background-color: red;
     border: 2px solid rgb(172, 0, 0);
     border-radius: 20px;
-    height: 34px;
-    width: 250px;
+    height: 54px;
+    width: 300px;
     cursor: pointer;
 }
 
 .cursos {
     display: inline-block;
-    justify-content: center;
     position: absolute;
     top: 425px;
     right: 750px;
+    left: 1200px;
 }
 
 h2 {
@@ -133,7 +133,7 @@ li {
 }
 
 @media screen and (max-width: 900px) {
-    
+
     .logo-header {
         width: 100px;
         height: 100px;
