@@ -88,6 +88,7 @@ h1 {
 .cursos {
     display: inline-block;
     position: absolute;
+    width: 450px;
     top: 425px;
     right: 750px;
     left: 1200px;
